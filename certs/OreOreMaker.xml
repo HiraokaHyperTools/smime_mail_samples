@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<DS1 xmlns="http://tempuri.org/DS1.xsd">
+  <Ce>
+    <CAPurpose>ca_smime</CAPurpose>
+    <CASubject>/C=JA/L=Osaka/O=Your company/CN=CA 20240817143342</CASubject>
+    <CAYears>77</CAYears>
+    <CAKeyType>RSA:4096</CAKeyType>
+    <CAMd>-sha256</CAMd>
+  </Ce>
+  <ChildCerts>
+    <ServerPurpose>smime</ServerPurpose>
+    <ServerSubject>/CN=smime1@hmailserver.test/emailAddress=smime1@hmailserver.test</ServerSubject>
+    <ServerYears>70</ServerYears>
+    <ServerAlt>email:smime1@hmailserver.test</ServerAlt>
+    <Signtool />
+    <PPass />
+    <Desc />
+    <ServerLabel>1</ServerLabel>
+    <ServerKeyType>RSA:2048</ServerKeyType>
+    <ServerMd>-sha256</ServerMd>
+  </ChildCerts>
+  <ChildCerts>
+    <ServerPurpose>smime</ServerPurpose>
+    <ServerSubject>/CN=smime2@hmailserver.test/emailAddress=smime2@hmailserver.test</ServerSubject>
+    <ServerAlt>email:smime2@hmailserver.test</ServerAlt>
+    <Signtool />
+    <PPass />
+    <Desc />
+    <ServerLabel>2</ServerLabel>
+    <ServerKeyType>RSA:2048</ServerKeyType>
+    <ServerMd>-sha256</ServerMd>
+  </ChildCerts>
+</DS1>

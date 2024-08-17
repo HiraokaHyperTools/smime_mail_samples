@@ -1,0 +1,5 @@
+file smime-1-secret.pfx
+pass smime1
+
+file smime-2-secret.pfx
+pass smime2
